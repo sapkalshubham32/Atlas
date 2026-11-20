@@ -1,3 +1,21 @@
 {
-    "python.terminal.useEnvFile": true
+    "python.terminal.useEnvFile": true,
+    "sqltools.connections": [
+        {
+            "pgOptions": {
+                "ssl": {
+                    "rejectUnauthorized": true
+                }
+            },
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "dpg-dc03htff3r2c738j9i00-a.oregon-postgres.render.com",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "Atlas",
+            "group": "Atlas",
+            "database": "atlas_ai_m3va",
+            "username": "atlasuser"
+        }
+    ]
 }
